@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simon Says Game</title>
+    <link rel="icon" href="png-transparent-simon-area-game-simon-says-smile-smiley-circle-symbol-thumbnail.png">
+    <link rel="stylesheet" href="Style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kablammo&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Simon Game &#127942</h1>
+    <h2 class="start">Press Enter to start</h2> 
+    <h3></h3>
+    <div class="main">
+        <div class="details">
+            <span><h2 class="details_head">How To Play:</h2></span>
+            <ul>
+                <li><b>Start:</b> Click on the "Start" button to initiate the game.</li>
+                <li><b>Remember the Pattern:</b> in which buttons are pressed</li>
+                <li><b>Repeat the Pattern: </b> After Simon finishes the sequence, it's your turn! Click on the colors in the same order that Simon played them.</li>
+                <li><b>Correct Guess:</b> If you correctly repeat the sequence, Simon will add another color to the pattern. Your task is to remember the entire sequence and continue to repeat it accurately.</li>
+                <li><b>Incorrect Guess:</b> If you make a mistake and click the wrong color or click them in the wrong order, the game will end, and your score will be displayed.</li>
+                <li><b>Beat Your High Score &#127942:</b> The goal is to beat your own high score or challenge your friends to see who can remember the longest sequence.</li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="container">
+                <div class="cont">
+                    <div class="btn box1" type="button"></div>
+                    <div class="btn box2" type="button"></div>
+                </div>
+                <div class="cont">
+                    <div class="btn box3" type="button"></div>
+                    <div class="btn box4" type="button"></div>
+                </div>
+                
+            </div>
+            <div class="scoring">
+                <button id="Score">Highest Score</button>
+                 <p></p>
+            </div>
+        </div>    
+    </div>
+    
+
+    <script src="App.js"></script>    
+</body>
+</html>
